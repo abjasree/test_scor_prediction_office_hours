@@ -21,6 +21,6 @@ m = 1.4774173755483797
 y = round(m*x + b, 2)
 st.subheader('The test score you can expect considering the hours you studied:')
 if x:
-   st.write(**y**)
+   st.write(y)
 else:
    st.write(0.0)
