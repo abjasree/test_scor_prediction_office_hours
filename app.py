@@ -20,4 +20,7 @@ b = 0.02963934787473239
 m = 1.4774173755483797
 y = m*x + b
 st.subheader('The test score you can expect considering the hours you studied:')
-st.write(y)
+if x:
+   st.write(y)
+else:
+   st.write(0.0)
